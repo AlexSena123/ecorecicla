@@ -1,0 +1,22 @@
+
+
+.table {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+
+.btn-warning {
+    color: #1b222c;
+}
+
+.btn-danger {
+    color: #2d3543;
+}

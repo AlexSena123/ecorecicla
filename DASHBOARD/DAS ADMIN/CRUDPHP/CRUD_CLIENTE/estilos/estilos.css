@@ -1,0 +1,27 @@
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 500px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.table th, .table td {
+    padding: 10px;
+}
+
+.btn-warning {
+    color: #1b222c;
+}
+
+.btn-danger {
+    color: #2d3543;
+}
