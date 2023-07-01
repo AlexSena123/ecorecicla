@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+   }
+
+body {
+  
+    height: 100vh;
+    background-color: #dae7c9;
+    background-size: cover;
+    background-position: center;
+    }
+      
+li {
+    list-style: none;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    }
+
+a:hover {
+    Color: #57624a;
+    }
+       
+    .logo{
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img{
+        height: 98px;
+        width: 98px; 
+        margin-right: 98px;
+        border-radius:40px;
+    
+    }
+    
+/* Estilos del header */
+
+header {
+     position: relative;
+    padding: 0 2rem;
+    }
+
+.navbar {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.navbar .links {
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    font-family: 'Carter One', cursive;
+    }
+
+.navbar .toggle_btn {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    }
+
+/*dropdow menu*/
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 25px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+.dropdown_menu.show {
+    display:block; 
+    height: 280px; /* Altura final del dropdown */
+    }
+
+.dropdown_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*::::slider::::*/
+.bosliderrrr{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px ;
+}
+.slider{
+    width: 1100px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 1100px;
+    height: 500px;
+
+}
+
+
+.navegation-manual{
+position: absolute;
+width: 1100px;
+margin-top: -40px;
+display: flex;
+justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #40d3dc;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: #40d3dc;
+}
+
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+
+.navegation-auto{
+    position: absolute;
+    display: flex;
+    width: 1100px;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navegation-auto div{
+    border: 2PX solid #40d3dc;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+
+.navegation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+
+#radio1:checked ~  .navegation-auto .auto-btn1{
+    background:#40d3dc;
+}
+
+#radio2:checked ~  .navegation-auto .auto-btn2{
+    background:#40d3dc;
+}
+#radio3:checked ~  .navegation-auto .auto-btn3{
+    background:#40d3dc;
+}
+
+#radio4:checked ~  .navegation-auto .auto-btn4{
+    background:#40d3dc;
+}
+
+/*:::BUZON:::*/
+.contact-form h3{
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    font-size: 2rem;
+  }
+  
+  .contact-form h2{
+    text-align: center;
+    color: darkgrey;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1rem;
+    height: 80px;
+  }
+  .tipo-de-letra{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .cotent{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+  }
+  
+  .contact-wrapper{
+    box-shadow: 0 0 20px 0  rgba(255, 255, 255, .3);
+  }
+  
+  .contact-wrapper > *{
+    padding: 1em;
+  }
+  
+  .contact-form{
+    background:none;
+  }
+  
+  .contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .contact-form form .block{
+  grid-column: 1/3;
+  }
+  
+  .contact-form form p{
+    margin: 0;
+    padding: 1em;
+  }
+  
+  
+  
+  .contact-form form button,
+  .contact-form form input,
+  .contact-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: black;
+    border-bottom: 2px solid #343759;
+  }
+  
+  .contact-form form button{
+    background: #1C2833;
+    color: white;
+    border: 2PX;
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 1em;
+  }
+  
+  .contact-form form button:hover,
+  .contact-form form button:focus{
+    background: black;
+    color: white;
+    transition: background-colo 1s ease-out;
+    outline: 0;
+  }
+
+/*:::PIE DE PAGINA:::*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+    border-radius: 50PX;
+}
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+
+/* responseve*/
+@media (max-width: 992px) {
+    .navbar .links,
+    .navbar .action_btn {
+         display: none;
+            }
+
+    .navbar .toggle_btn {
+         display: block;
+            }
+
+            .dropdown_menu {
+         display: block;
+            }
+        }
+
+@media (max-width: 576px) {
+    .dropdown_menu {
+         left: 2rem;
+         width: auto;
+            }
+        }
+
+ /*slider*/
+ @media (max-width: 768px) {
+    .slide {
+      height: auto;
+    }
+  
+    .slide-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navegation-auto {
+      position: static;
+      margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+    }
+    .navegation-auto div {
+        width: 10px;
+        height: 5px;
+      }
+      
+      .slide img {
+        width: 100%;
+        height: auto;
+    }
+  }
+
+/*:::BUZON:::*/
+@media(min-width:700px){
+
+    .contact-wrapper{
+      display: grid;
+    
+    }
+  
+    .contact-wrapper > *{
+      padding: 2em;
+    }
+  
+  
+  }
+
+/*:::PIE DE PAGINA:::*/
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}

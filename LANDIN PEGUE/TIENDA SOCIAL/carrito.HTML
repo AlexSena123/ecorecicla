@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRITO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+
+            <a class="logo">
+                <img src="../IMAGENES/descarga.png" width="120px" height="120px" alt="logo de la compañia" > 
+                <link rel="stylesheet" href="botones.html">
+                <!--<h1 class="logo">NOMBRE<span></span></h1>-->
+           </a>
+
+            
+            <ul class="links">
+                <a href="../CODE HTML/INICIO.HTML" class="nav-link">INICIO</a>
+                <a href="../CODE HTML/INICIO.HTML" class="nav-link">QUIENES SOMOS</a>
+                <a href="../CODE HTML/RUTAS.HTML" class="nav-link">RUTAS DE RECOLECCION</a>
+                <a href="../CODE HTML/DOCUMENTOS.HTML" class="nav-link">NORMALIDAD Y LEGALIDAD</a>
+                <a href="index.HTML" class="nav-link">TIENDA SOCIAL</a>
+                <a href="../CODE HTML/BUZON.HTML" class="nav-link">CONTACTANOS</a>
+                <a href="../CODE HTML/PQRS.HTML" class="nav-link">PQRS</a>
+                <a href="../loginprueba2/login.php" class="nav-link login-btn">INGRESAR</a>
+            </ul>
+            
+            <div class="toggle_btn">
+                <i class="fas fa-bars" style="color: #2d3543;"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="../CODE HTML/INICIO.HTML" class="nav-link">INICIO</a></li>
+            <li><a href="../CODE HTML/INICIO.HTML" class="nav-link">QUIENES SOMOS</a></li>
+            <li><a href="../CODE HTML/RUTAS.HTML" class="nav-link">RUTAS DE RECOLECCION</a></li>
+            <li><a href="../CODE HTML/DOCUMENTOS.HTML" class="nav-link">NORMALIDAD Y LEGALIDAD</a></li>
+            <li><a href="index.HTML" class="nav-link">TIENDA SOCIAL</a></li>
+            <li><a href="../CODE HTML/BUZON.HTML" class="nav-link">CONTACTANO</a></li>
+            <li><a href="../CODE HTML/PQRS.HTML" class="nav-link">PQRS</a></li>
+            <li><a href="../loginprueba2/login.php" class="nav-link login-btn">INGRESAR</a></li>
+        </div>
+    </header>
+    <script src="../java/inicio.js"></script>
+
+    <!--carito-->
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">Tienda </br> social</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">Tienda </br> social</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boton-volver" href="./index.HTML">
+                            <i class="bi bi-arrow-return-left"></i> Seguir comprando
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="./carrito.HTML">
+                            <i class="bi bi-cart-fill"></i> Carrito
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2022 Carpi Coder</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
+
+                <div id="carrito-productos" class="carrito-productos disabled">
+                    <!-- Esto se va a completar con el JS -->
+                </div>
+
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>PUNTOS TOTALES:</p>
+                            <p id="total">$3000</p>
+                        </div>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                    </div>
+                </div>
+
+                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+
+            </div>
+        </main>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>

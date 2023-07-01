@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+
+body {
+    height: 100vh;
+    background-color: #dae7c9;
+    background-size: cover;
+    background-position: center;
+    }
+      
+li {
+    list-style: none;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    }
+
+a:hover {
+    Color: #57624a;
+    }
+       
+    .logo{
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img{
+        height: 98px;
+        width: 98px; 
+        margin-right: 98px;
+        border-radius:40px;
+    
+    }
+    
+/* Estilos del header */
+
+header {
+     position: relative;
+    padding: 0 2rem;
+    }
+
+.navbar {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.navbar .links {
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    font-family: 'Carter One', cursive;
+    }
+
+.navbar .toggle_btn {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    }
+
+/*dropdow menu*/
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 25px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+.dropdown_menu.show {
+    display:block; 
+    height: 280px; /* Altura final del dropdown */
+    }
+
+.dropdown_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*:::PQRC:::*/
+.contact-form h3{
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    font-size: 2rem;
+  }
+  
+  
+  
+  .contact-form h2{
+    text-align: center;
+    color: darkgrey;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1rem;
+    height: 80px;
+  }
+  .tipo-de-letra{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .cotent{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+  }
+  
+  .contact-wrapper{
+    box-shadow: 0 0 20px 0  rgba(255, 255, 255, .3);
+    margin: 50PX;
+  }
+  
+  .contact-wrapper > *{
+    padding: 1em;
+   
+  }
+  
+  .contact-form{
+    background:none;
+  }
+  
+  .contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .contact-form form .block{
+  grid-column: 1/3;
+  }
+  
+  .contact-form form p{
+    margin: 0;
+    padding: 1em;
+  }
+  
+  select {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background: none;
+    border-bottom: 2px solid  #343759;
+  }
+  
+  .download-box {
+      margin: 0px;
+      margin-top: 500PX;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      width: 100%;
+      background-color: #dae7c9;/* COLOR DE FONDO */
+      margin-top: 1em;
+      border-radius: 5px;
+    }
+    
+    .download-text {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      color: black;
+      text-align: center;
+      margin: 0;
+    }
+    
+    .download-button {
+      display: inline-block;
+      background:  #406918;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      text-transform: uppercase;
+      padding: 1em 2em;
+      text-decoration: none;
+      font-family: 'Edu NSW ACT Foundation', cursive;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+  
+    
+  
+  
+  
+  .contact-form form button,
+  .contact-form form input,
+  .contact-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: black;
+    border-bottom: 2px solid #343759;
+  }
+  
+  .contact-form form button{
+    background: #406918;
+    color: azure;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 1em;
+    font-size: 1rem;
+  }
+  
+  .contact-form form button:hover,
+  .download-button:hover,
+  .contact-form form button:focus{
+    background: #57624a;
+    color: black;
+    transition: background-colo 1s ease-out;
+    outline: 0;
+  }
+
+/*:::pie de pagina:::*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+    border-radius: 50PX;
+}
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+    /* :::responseve::::*/
+@media (max-width: 992px) {
+    .navbar .links,
+    .navbar .action_btn {
+    display: none;
+    }
+        
+    .navbar .toggle_btn {
+    display: block;
+    }
+        
+    .dropdown_menu {
+    display: block;
+    }
+}
+        
+@media (max-width: 576px) {
+    .dropdown_menu {
+    left: 2rem;
+    width: auto;
+    }
+}
+
+/*:::PQRS:::*/
+@media(min-width:700px){
+
+  
+    .contact-wrapper{
+      display: grid;
+    
+    }
+  
+    .contact-wrapper > *{
+      padding: 2em;
+    }
+  
+  
+  }
+
+/*::PIE DE PAGINA::*/
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+         

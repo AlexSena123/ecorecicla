@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+
+body {
+    height: 100vh;
+    background-color: #dae7c9;
+    background-size: cover;
+    background-position: center;
+    }
+      
+li {
+    list-style: none;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    }
+
+a:hover {
+    Color: #57624a;
+    }
+       
+    .logo{
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img{
+        height: 98px;
+        width: 98px; 
+        margin-right: 98px;
+        border-radius:40px;
+    
+    }
+    
+/* Estilos del header */
+
+header {
+     position: relative;
+    padding: 0 2rem;
+    }
+
+.navbar {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.navbar .links {
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    font-family: 'Carter One', cursive;
+    }
+
+.navbar .toggle_btn {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    }
+
+/*dropdow menu*/
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 25px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+.dropdown_menu.show {
+    display:block; 
+    height: 280px; /* Altura final del dropdown */
+    }
+
+.dropdown_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*RUTAS*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  max-width: 95%;
+  margin: 20px;
+  overflow-x: auto;
+  border-radius: 40PX;
+}
+
+table {
+  color: black;
+  font-size: 1rem;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+thead {
+  background: #85F76C;
+  align-items: center;
+  text-align: center;
+}
+
+.encabezado{
+  text-align: center;
+  align-items: center;
+}
+
+th {
+  padding: 20px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+td {
+  padding: 15px;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+td:last-child {
+  text-align: center;
+}
+
+tbody tr {
+  cursor: pointer;
+}
+
+tbody tr:hover {
+  background: rgba(243, 103, 199, 0.4);
+}
+
+.rutas1 {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+ 
+}
+
+.rutas1:hover {
+  text-decoration: underline;
+}
+  /*pie de pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+    border-radius: 50PX;
+}
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+
+        /* responseve*/
+/*BOTONES*/
+@media (max-width: 992px) {
+    .navbar .links,
+    .navbar .action_btn {
+         display: none;
+            }
+
+    .navbar .toggle_btn {
+         display: block;
+            }
+
+            .dropdown_menu {
+         display: block;
+            }
+        }
+
+@media (max-width: 576px) {
+    .dropdown_menu {
+         left: 2rem;
+         width: auto;
+            }
+        }
+ /*RUTAS*/
+ @media screen and (max-width: 768px) {
+    .container {
+      overflow-x: auto;
+    }
+    
+    table {
+      width: auto;
+    }
+    
+    th,
+    td {
+      white-space: nowrap;
+    }
+  }
+  
+  .table-background {
+    background-color: #A6ACAF; /* Reemplaza "your-color" con el color de fondo deseado */
+  }
+
+  /* pie de pagina*/
+  @media screen and (max-width:768px){
+    .pie-pagina .grupo-1{
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+  }  
+
+ 

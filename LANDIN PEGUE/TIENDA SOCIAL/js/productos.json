@@ -1,0 +1,416 @@
+[
+    {
+        "id": "abrigo-03(2)",
+        "titulo": "cinta antideslizantes para bebes",
+        "imagen": "./img/abrigos/06.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 120
+    }, 
+
+    {
+        "id": "abrigo-07",
+        "titulo": "ASPIRADOR </BR> NASAL",
+        "imagen": "./img/abrigos/07.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 125
+    }, 
+
+    {
+        "id": "abrigo-08",
+        "titulo": "2 EN 1 CHAMPU ACONDICIONADOR PARA BEBES",
+        "imagen": "./img/abrigos/08.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 100
+    },
+
+    {
+        "id": "abrigo-09",
+        "titulo": "ACEITE CREMOSO PARA BEBES GRASCO 473ML",
+        "imagen": "./img/abrigos/09.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 100
+    },
+
+    {
+        "id": "abrigo-10",
+        "titulo": "CREMA HUMECTANTE PARA BEBE FRASCO X 473ML",
+        "imagen": "./img/abrigos/10.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 100
+    },
+
+    {
+        "id": "abrigo-11",
+        "titulo": "GEL DE DUCHA PARA BEBES FRASCO X 473ML",
+        "imagen": "./img/abrigos/11.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 100
+    },
+
+    {
+        "id": "abrigo-12",
+        "titulo": "PAÑUELOS FACIALES KIDS X 50 UND KLEENEX",
+        "imagen": "./img/abrigos/12.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 100
+    },
+
+    {
+        "id": "abrigo-13",
+        "titulo": "PAÑALES HUGGIES ACTIVE SEC ESTAPA2/M X 40 UNDS",
+        "imagen": "./img/abrigos/13.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio":220
+    },
+
+    {
+        "id": "abrigo-14",
+        "titulo": "CHUPO PARA </br> BIBERON",
+        "imagen": "./img/abrigos/14.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio":150
+    },
+
+    {
+        "id": "abrigo-15",
+        "titulo": "ADMINISTRADOR DE MEDICINAS",
+        "imagen": "./img/abrigos/15.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio":100
+    },
+
+    {
+        "id": "abrigo-16",
+        "titulo": "PROTECTOR DE </BR> PEZONES",
+        "imagen": "./img/abrigos/16.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio":180
+    },
+
+    {
+        "id": "abrigo-17",
+        "titulo": "MASAJEADOR DE </br> ENCIAS",
+        "imagen": "./img/abrigos/17.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio":190
+    },
+
+    {
+        "id": "abrigo-18",
+        "titulo": "RODILLERAS PARA </br> BEBES",
+        "imagen": "./img/abrigos/18.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio":100
+    },
+
+    
+    {
+        "id": "camiseta-01",
+        "titulo": "ABRELATAS SENCILLO",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 50
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "set de exprimidores de limones y cítricos con atomizador",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 50
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "exprimidor manual de limones y citricos",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 50
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "OLLA CHOCOLATERA INDUSTRIAL RECORTADA EXTRA FUERTE 7 LITROS",
+        "imagen": "./img/camisetas/04.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 600
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "PAILA GRANDE DE ALUMINIO",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 850
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "CANTINA LECHERA GRANDE",
+        "imagen": "./img/camisetas/06.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "OLLAS MEDIANAS",
+        "imagen": "./img/camisetas/07.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "CANTINA LECHERA MEDIANA",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1200
+    },
+    {
+        "id": "camiseta-09",
+        "titulo": "OLLETA PEQUEÑA",
+        "imagen": "./img/camisetas/09.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-10",
+        "titulo": "JARRA DE ACERO PEQUEÑA",
+        "imagen": "./img/camisetas/10.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-11",
+        "titulo": "JARRA DE ACERO MEDIANO",
+        "imagen": "./img/camisetas/11.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-12",
+        "titulo": "OLLA PEQUEÑA EN ALUMINIO",
+        "imagen": "./img/camisetas/12.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-13",
+        "titulo": "OLLA SEMI-MEDIANA EN ALUMINIO",
+        "imagen": "./img/camisetas/13.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-14",
+        "titulo": "OLLA MEDIANA EN ALUMINIO",
+        "imagen": "./img/camisetas/14.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-15",
+        "titulo": "JUEGO DE SARTENES",
+        "imagen": "./img/camisetas/15.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-16",
+        "titulo": "OLLA PEQUEÑA EN ALUMINIO",
+        "imagen": "./img/camisetas/16.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-16",
+        "titulo": "OLLA PEQUEÑA EN ALUMINIO",
+        "imagen": "./img/camisetas/16.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-17",
+        "titulo": "OLLA PEQUEÑA EN ALUMINIO",
+        "imagen": "./img/camisetas/17.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-18",
+        "titulo": "OLLA PEQUEÑA EN ALUMINIO",
+        "imagen": "./img/camisetas/18.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-19",
+        "titulo": "OLLA PEQUEÑA EN ALUMINIO",
+        "imagen": "./img/camisetas/19.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-20",
+        "titulo": "OLLA PEQUEÑA EN ALUMINIO",
+        "imagen": "./img/camisetas/20.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "camiseta-21",
+        "titulo": "OLLA PEQUEÑA EN ALUMINIO",
+        "imagen": "./img/camisetas/22.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pantalón 01",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pantalón 02",
+        "imagen": "./img/pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalón 03",
+        "imagen": "./img/pantalones/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Pantalón 04",
+        "imagen": "./img/pantalones/04.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Pantalón 05",
+        "imagen": "./img/pantalones/05.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    }
+]
